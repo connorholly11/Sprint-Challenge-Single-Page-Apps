@@ -8,13 +8,22 @@ import { Link, NavLink } from "react-router-dom";
 export default function TabNav() {
     return(
         <div>
+            
+                <NavLink to="/Character">Characters</NavLink>
+                
+
+                <NavLink to="/Location">Locations</NavLink>
+            
+            
+                <NavLink to='/Episode'>Episodes</NavLink>
+            
         </div>
     )
 
 };
 
 // const panes = [
-//     { menuItem: 'Characters', render: () => <Tab.Pane>Characters</Tab.Pane> },
+//     { menuItem: 'Characters', render: () => <Tab.Pane>Characters</Tab.Pane> <Link to="/Character"> Character </Link> },
 //     { menuItem: 'Locations', render: () => <Tab.Pane>Locations</Tab.Pane> },
 //     { menuItem: 'Episodes', render: () => <Tab.Pane>Episodes</Tab.Pane> },
 //   ]
