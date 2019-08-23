@@ -10,13 +10,13 @@ export default function TabNav() {
         <div>
             
                 <NavLink to="/Character">Characters</NavLink>
-                
+                <span>         </span>
 
                 <NavLink to="/Location">Locations</NavLink>
-            
+                <span>         </span>
             
                 <NavLink to='/Episode'>Episodes</NavLink>
-            
+                <span>         </span>
         </div>
     )
 
