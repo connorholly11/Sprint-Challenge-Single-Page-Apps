@@ -2,7 +2,7 @@ import React from "react";
 import TabNav from "./components/TabNav.js";
 import Header from "./components/Header.js";
 import CharacterList from './components/CharacterList';
-import CharacterCard from './components/CharacterCard';
+// import CharacterCard from './components/CharacterCard';
 import LocationsList from "./components/LocationsList.js";
 import EpisodeList from './components/EpisodeList';
 
