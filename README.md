@@ -1,3 +1,18 @@
+*  Explain benefit(s) using client-side routing?
+
+Answer: Everything is in one place (JS) so the page does not need to render everytime there is a update. Only that specific part of the page does. This is also known as single page applications
+
+*  What does AJAX stand for?
+Answer: Asynchronous JavaScript And XML
+
+*  What are controlled components in React?
+
+Answer: A controlled component is when you control state and the value within react instead of using a DOM element, which would be an uncontrolled state. The reason we do this is to be more specific to the application and to avoid bugs.
+
+*  Name three tools/libraries for making AJAX requests
+Formik, axios, yup
+
+
 # Sprint Challenge: Single Page Applications
 ## Rick & Morty Edition
 
